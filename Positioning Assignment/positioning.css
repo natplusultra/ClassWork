@@ -1,0 +1,37 @@
+body {
+	margin-right: 200px;
+	line-height: 1.5;
+}
+
+.main {
+	width: 65%;
+	float: right;
+}
+
+#fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #eee;
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding: 50px 25px 50px 25px;
+}
+
+#relative {
+	position: relative;
+	height: 150px;
+	background-color: #eee;
+	text-align: center;
+}
+
+#absolute {
+	position: absolute;
+	right: -15px;
+	bottom: 0;
+	width: 200px;
+	height: 60px;
+	background-color: #808080;
+	text-align: center;
+}
