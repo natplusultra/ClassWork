@@ -1,0 +1,17 @@
+a {
+	font-size: 32px;
+}
+
+a:hover {
+	background-color: gray;
+	color: white;
+}
+
+a:active {
+	background-color: pink;
+}
+
+a:focus {
+	background-color: black;
+	color: yellow;
+}
